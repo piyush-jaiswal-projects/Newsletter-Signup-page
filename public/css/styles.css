@@ -1,0 +1,274 @@
+
+@media screen and (min-width: 1280px) {
+  html,
+body {
+  height: 100%;
+  color: white;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top{
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.newsletterInfo{
+  width: 25%;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  text-align: left;
+}
+
+.newsletterSignUp{
+  width: 40%;
+  position: fixed;
+  top: 25%;
+  left: 45%;
+  color: black;
+}
+
+
+.title{
+  text-align: center;
+}
+
+.customPosition{
+position: fixed;
+top: 70%;
+left: 45%;
+}
+
+.tagLine{
+  font-style: italic;
+  font-size: larger;
+  color: rgb(39, 150, 240);
+}
+
+.titlePosition{
+  position: fixed;
+  top: 3%;
+  left: 2%;
+}
+
+.customText{
+  color: white;
+}
+}
+
+
+@media screen and (min-width: 1080px) and (max-width:1279px){
+  html,
+  body {
+    height: 100%;
+    color: white;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .top{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .newsletterInfo{
+    width: 25%;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    text-align: left;
+  }
+  
+  .newsletterSignUp{
+    width: 40%;
+    position: fixed;
+    top: 25%;
+    left: 45%;
+    color: black;
+  }
+  
+  
+  
+  .title{
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .customPosition{
+  position: absolute;
+  top: 22em;
+  bottom: 1em;
+  left: 4.5em;
+  }
+  
+  .tagLine{
+    font-style: italic;
+    font-size: 2em;
+    color: rgb(39, 150, 240);
+    text-align: center;
+  }
+  
+  .titlePosition{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    margin: 0;
+  }
+  
+  .customText{
+    color: white;
+    font-size: 2em;
+  }
+}
+
+
+@media screen and (max-width: 1079px){
+  html,
+  body {
+    height: 100%;
+    color: white;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .top{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .newsletterInfo{
+    width: 20em;
+    margin: 0;
+    position: absolute;
+    top: 5em;
+    left: 1em;
+    text-align: left;
+    text-align: justify;
+  }
+  
+  .newsletterSignUp{
+    width: 20em;
+    margin: 0;
+    position: absolute;
+    top: 30em;
+    left: 1em;
+    color: black;
+  }
+  
+  
+  .title{
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .customPosition{
+  position: absolute;
+  top: 24em;
+  bottom: 1em;
+  left: 1em;
+  }
+  
+  .tagLine{
+    font-style: italic;
+    font-size: 2em;
+    color: rgb(39, 150, 240);
+    text-align: center;
+  }
+  
+  .titlePosition{
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    margin: 0;
+  }
+  
+  .customText{
+    color: white;
+    font-size: 2em;
+  }
+}
